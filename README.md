@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> This is just a demo website for some branding I made. This is not a real product!
+
+<hr>
+
 <div align="center">
   <a href="https://3vorp.github.io/spatial" target="_blank" rel="noopener noreferrer">
     <img width="1024" alt="Spatial Wordmark" src="https://github.com/user-attachments/assets/fe5bbb87-8c35-414a-a4ef-0baad9002f17" />
