@@ -22,7 +22,7 @@
 				The thing is, this is a solved problem. Computers have been using the "spatial" computing
 				metaphor for over thirty years, where content is represented as fixed objects in space. As
 				it turns out, humans are particularly good at remembering where things are when they're the
-				ones who put them there. A hidden computer window appear where you last left it, so why
+				ones who put them there. A hidden computer window appears where you last left it, so why
 				can't we do the same with video editing?
 			</p>
 		</div>
@@ -35,8 +35,9 @@
 			<p>
 				Instead of basing all content on a timeline, each frame is represented as a snapshot in
 				space. You can drag around key frames anywhere in the working area, and much like computer
-				windows, there's several tools at your disposal for managing and tracking frames on the
-				screen.
+				windows, there are several tools at your disposal for managing and tracking frames on the
+				screen. The learning curve is hence drastically reduced since you've likely been unknowingly
+				using many of its key features for years.
 			</p>
 			<p>
 				Since you can always see the content you're working on, you never end up hunting down that
@@ -47,7 +48,7 @@
 			<p>
 				If all of this is too foreign to you as a (hopefully soon-formerly) timeline editor, there's
 				always a progress bar visible, and several view modes that let you see data in a time-driven
-				way. Give it a try and you may end up being surprised by how little you end up using these
+				way. Give it a try, and you may end up being surprised by how little you end up using these
 				features.
 			</p>
 		</div>

@@ -22,6 +22,7 @@ export default {
 
 <style scoped lang="scss">
 @use "../assets/css/variables.scss" as *;
+
 footer {
 	width: 100%;
 	background: $dark;

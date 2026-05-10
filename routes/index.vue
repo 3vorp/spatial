@@ -27,12 +27,12 @@
 </template>
 
 <script>
-import About from './about.vue';
+import About from "./about.vue";
 
 export default {
 	components: {
 		About,
-	}
+	},
 };
 </script>
 
