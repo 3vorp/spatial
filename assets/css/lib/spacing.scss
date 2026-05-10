@@ -1,32 +1,3 @@
-@use "./variables.scss" as *;
-
-// remove this line to instantly die
-*, *::before, *::after {
-	box-sizing: border-box;
-}
-
-body {
-	margin: 0;
-}
-
-li {
-	margin: 8px 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	margin-top: 0;
-	margin-bottom: 8px;
-}
-
-button, input {
-	border-style: none;
-}
-
-img {
-	object-fit: contain;
-}
-
-/** Bootstrap padding and margin styles */
 .ma-0 {
 	margin: 0 !important;
 }

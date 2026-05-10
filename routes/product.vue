@@ -1,6 +1,6 @@
 <template>
 	<div class="container">
-		<h1 class="title mb-0">Get started with Spatial</h1>
+		<h1 class="title text-center mb-0">Get started with Spatial</h1>
 		<p class="text-center mb-5">
 			Spatial's workflow molds itself to your needs, whether you're a student or director of a
 			cinema studio.
@@ -117,5 +117,12 @@ export default {
 .currency {
 	align-self: end;
 	margin-bottom: 4px;
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+	.card-container {
+		display: flex;
+		flex-flow: column nowrap;
+	}
 }
 </style>

@@ -1,11 +1,11 @@
 <template>
 	<footer>
-		<a href="https://3vorp.github.io" class="navbar-item" target="_blank" rel="noopener noreferrer">
+		<a href="https://3vorp.github.io" class="nav-item" target="_blank" rel="noopener noreferrer">
 			© 2026 Evorp
 		</a>
 		<a
 			href="https://github.com/3vorp/spatial"
-			class="navbar-item"
+			class="nav-item"
 			target="_blank"
 			rel="noopener noreferrer"
 		>
@@ -31,7 +31,19 @@ footer {
 	gap: 32px;
 	display: flex;
 	flex-flow: row nowrap;
+	justify-content: space-between;
 	align-items: center;
 	color: $light;
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+	footer {
+		flex-flow: column nowrap;
+		justify-content: center;
+		gap: 4px;
+		padding: 16px 64px;
+		text-align: center;
+		height: auto;
+	}
 }
 </style>

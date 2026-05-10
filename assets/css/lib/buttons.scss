@@ -1,0 +1,71 @@
+@use "../variables.scss" as *;
+
+.btn {
+	font-family: $font-body;
+	// icon fix
+	display: inline-flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	user-select: none;
+
+	// set no background or text color by default, use primary/light/dark to theme
+	background-color: transparent;
+	padding: 0 12px;
+	height: 32px;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: $border-radius;
+	box-shadow: $drop-shadow;
+	transition: $transition;
+	cursor: pointer;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.btn-lg {
+	height: 48px;
+	padding: 12px 24px;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.btn-primary {
+	background: $primary;
+	color: $light;
+	// this is a bit lazy but it looks decent enough for a demo
+	&:hover {
+		filter: brightness(1.1);
+	}
+	&:active {
+		filter: brightness(1.5);
+	}
+}
+
+.btn-light {
+	background: $light;
+	color: $dark;
+	&:hover {
+		filter: brightness(0.85);
+	}
+	&:active {
+		filter: brightness(0.7);
+	}
+}
+
+.btn-dark {
+	background: $dark;
+	color: $light;
+	&:hover {
+		filter: brightness(1.5);
+	}
+	&:active {
+		filter: brightness(2);
+	}
+}

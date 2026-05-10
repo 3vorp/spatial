@@ -88,6 +88,7 @@ export default {
 	transform: translateX(-50%) translateY(-50%);
 	display: flex;
 	flex-flow: row nowrap;
+	filter: drop-shadow($drop-shadow);
 }
 
 .left-image {
@@ -104,7 +105,7 @@ export default {
 		max-width: 100%;
 	}
 	background: rgba($light, 0.7);
-	backdrop-filter: blur(12px);
+	backdrop-filter: blur(8px);
 	border-top-left-radius: $border-radius;
 	border-bottom-left-radius: $border-radius;
 }
@@ -117,8 +118,18 @@ export default {
 	width: 60%;
 	padding: 32px;
 	background: rgba($dark, 0.7);
-	backdrop-filter: blur(12px);
+	backdrop-filter: blur(8px);
 	border-top-right-radius: $border-radius;
 	border-bottom-right-radius: $border-radius;
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+	.left-image {
+		display: none;
+	}
+	.login-accounts {
+		width: 80vw;
+		border-radius: $border-radius;
+	}
 }
 </style>
