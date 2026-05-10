@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 1px;
 }
 
-p {
+p, li {
 	// secondary text is just regular text at 0.7 opacity
 	opacity: 0.7;
 }
@@ -31,9 +31,16 @@ a {
 	text-align: center;
 }
 
+.title {
+	font-size: 48px;
+	margin-top: 64px;
+	margin-bottom: 32px;
+	text-align: center;
+}
+
 // todo: if I ever adapt this to mobile make this somewhat reactive
 .container {
-	padding: 64px;
+	padding: 64px 256px;
 }
 
 .navbar-item {
@@ -78,6 +85,13 @@ a {
 	}
 }
 
+.btn-lg {
+	height: 48px;
+	padding: 0 24px;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
 .btn-primary {
 	background: $primary;
 	color: $light;
@@ -98,6 +112,17 @@ a {
 	}
 	&:active {
 		filter: brightness(0.7);
+	}
+}
+
+.btn-dark {
+	background: $dark;
+	color: $light;
+	&:hover {
+		filter: brightness(1.5);
+	}
+	&:active {
+		filter: brightness(2);
 	}
 }
 

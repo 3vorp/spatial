@@ -23,16 +23,8 @@ export default {
 		return {
 			links: [
 				{
-					to: "/spatial/download",
+					to: "/spatial/product",
 					title: "Product",
-				},
-				{
-					to: "/spatial/features",
-					title: "Features",
-				},
-				{
-					to: "/spatial/pricing",
-					title: "Pricing",
 				},
 			],
 		};

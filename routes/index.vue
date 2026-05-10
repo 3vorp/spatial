@@ -3,17 +3,15 @@
 		<div class="hero-text">
 			<div>
 				<h1 class="hero-tagline mb-0">Video Editing for the 21st Century</h1>
-				<p>
-					Every video editor has looked the same for the past 30 years. What if we rethought everything?
-				</p>
+				<p>Every video editor has looked the same for the past 30 years. What if they didn't?</p>
 			</div>
 
 			<div class="btn-row mt-5">
-				<router-link to="/spatial/login" class="btn btn-primary btn-hero">
+				<router-link to="/spatial/product" class="btn btn-primary btn-lg">
 					Get Started
 					<mdicon name="chevron-right" />
 				</router-link>
-				<router-link to="/spatial/features" class="btn btn-light btn-hero">
+				<router-link to="/spatial/login" class="btn btn-light btn-lg">
 					Learn More
 					<mdicon name="chevron-right" />
 				</router-link>
@@ -45,13 +43,19 @@ export default {};
 	flex-flow: row nowrap;
 	justify-content: center;
 	align-items: center;
+	gap: 8px;
 	background-image: url("/static/images/hero.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
 	padding: 64px;
 	// compensate for navbar in the way
 	padding-top: 128px;
 }
 
 .hero-text {
+	height: 100%;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: space-between;
@@ -65,16 +69,8 @@ export default {};
 .btn-row {
 	display: flex;
 	flex-flow: row wrap;
-	gap: 16px 8px;
+	gap: 16px;
 	align-items: center;
-}
-
-// bigger buttons
-.btn-hero {
-	height: 48px;
-	padding: 0 24px;
-	font-size: 20px;
-	letter-spacing: 2px;
 }
 
 .hero-image {

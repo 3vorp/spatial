@@ -9,7 +9,7 @@
 			target="_blank"
 			rel="noopener noreferrer"
 		>
-			This website was made with the Vue framework (from scratch). View the source here!
+			This website was made with the Vue website framework. View the source here!
 		</a>
 	</footer>
 </template>
