@@ -26,6 +26,10 @@ export default {
 					to: "/spatial/product",
 					title: "Product",
 				},
+				{
+					to: "/spatial/about",
+					title: "About",
+				},
 			],
 		};
 	},
@@ -41,7 +45,7 @@ header {
 	width: 100%;
 	top: 0;
 	z-index: 999;
-	background: rgba($dark, 0.5);
+	background: rgba($dark, 0.7);
 	backdrop-filter: blur(12px);
 	filter: drop-shadow($drop-shadow);
 }

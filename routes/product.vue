@@ -8,7 +8,7 @@
 
 		<div class="card-container">
 			<div
-				v-for="card in cards"
+				v-for="(card, i) in cards"
 				:key="card.title"
 				class="card"
 				:class="card.recommended && 'card-recommended'"
@@ -26,7 +26,7 @@
 				</router-link>
 				<ul>
 					<li v-for="feat in card.features">{{ feat }}</li>
-					<li v-for="_ in 10">Lorem ipsum</li>
+					<li v-for="_ in i * 5">Lorem ipsum</li>
 				</ul>
 			</div>
 		</div>

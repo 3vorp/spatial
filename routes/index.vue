@@ -2,7 +2,7 @@
 	<div class="hero-fg">
 		<div class="hero-text">
 			<div>
-				<h1 class="hero-tagline mb-0">Video Editing for the 21st Century</h1>
+				<h1 class="title mb-0">Video Editing for the 21st Century</h1>
 				<p>Every video editor has looked the same for the past 30 years. What if they didn't?</p>
 			</div>
 
@@ -11,7 +11,7 @@
 					Get Started
 					<mdicon name="chevron-right" />
 				</router-link>
-				<router-link to="/spatial/login" class="btn btn-light btn-lg">
+				<router-link to="/spatial/about" class="btn btn-light btn-lg">
 					Learn More
 					<mdicon name="chevron-right" />
 				</router-link>
@@ -21,16 +21,19 @@
 		<img src="/static/images/hero_logo.png" class="hero-image" />
 	</div>
 
-	<div class="container">
-		<div class="section">
-			<h1>What Makes Spatial Different?</h1>
-			<p>This is just a demo website for some branding I made. This is not a real product!</p>
-		</div>
-	</div>
+	<!-- this is so stupid but whatever -->
+	<h1 class="title">Discover Spatial</h1>
+	<about hide-title />
 </template>
 
 <script>
-export default {};
+import About from './about.vue';
+
+export default {
+	components: {
+		About,
+	}
+};
 </script>
 
 <style scoped lang="scss">
@@ -52,6 +55,7 @@ export default {};
 	padding: 64px;
 	// compensate for navbar in the way
 	padding-top: 128px;
+	box-shadow: $drop-shadow;
 }
 
 .hero-text {
@@ -62,19 +66,14 @@ export default {};
 	color: $light;
 }
 
-.hero-tagline {
-	font-size: 48px;
-}
-
 .btn-row {
 	display: flex;
 	flex-flow: row wrap;
-	gap: 16px;
 	align-items: center;
+	gap: 16px;
 }
 
 .hero-image {
-	margin: auto;
 	filter: drop-shadow($drop-shadow);
 }
 </style>

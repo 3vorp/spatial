@@ -103,7 +103,7 @@ export default {
 		max-height: 100%;
 		max-width: 100%;
 	}
-	background: rgba($light, 0.8);
+	background: rgba($light, 0.7);
 	backdrop-filter: blur(12px);
 	border-top-left-radius: $border-radius;
 	border-bottom-left-radius: $border-radius;
