@@ -27,12 +27,12 @@
 					why can't we do the same with video editing?
 				</p>
 			</div>
-			<img src="/static/images/about/timeline.jpg" />
+			<img src="/static/images/about/timeline.jpg" alt="Traditional timeline-based editors" />
 		</div>
 	</div>
 	<div class="section-dark">
 		<div class="container section">
-			<img src="/static/images/about/spatial.png" />
+			<img src="/static/images/about/spatial.png" alt="Modern windowing systems" />
 			<div>
 				<h2>So how does it work?</h2>
 				<p>

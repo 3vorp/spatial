@@ -4,7 +4,7 @@
 			<div class="hero-text">
 				<div>
 					<h1 class="title my-0">Video Editing for the 21st Century</h1>
-					<p>Every video editor has looked the same for the past 30 years. What if they didn't?</p>
+					<p>Every video editor has looked the same for the past 30 years. What if it didn't?</p>
 				</div>
 
 				<div class="btn-row mt-5">
@@ -19,7 +19,7 @@
 				</div>
 			</div>
 			<!-- ideally this would be a product image but obviously this is a demo -->
-			<img src="/static/images/hero_logo.png" class="hero-image" />
+			<img src="/static/images/hero_logo.png" class="hero-image" alt="Spatial Logo" />
 		</div>
 	</div>
 
@@ -47,6 +47,10 @@ export default {
 	background-repeat: no-repeat;
 	background-size: cover;
 	box-shadow: $drop-shadow;
+	min-height: 512px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .hero-container {

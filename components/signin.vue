@@ -2,8 +2,8 @@
 	<div class="login-page-container">
 		<div class="login-container">
 			<div class="logo-panel">
-				<img src="/static/images/login/logo.png" />
-				<img src="/static/images/login/wordmark.png" />
+				<img src="/static/images/login/logo.png" alt="Spatial Logo" />
+				<img src="/static/images/login/wordmark.png" alt="Spatial Wordmark" />
 			</div>
 			<div class="login-accounts">
 				<h2>{{ title }}</h2>
@@ -43,7 +43,7 @@ export default {
 		isLogin: {
 			type: Boolean,
 			required: true,
-		}
+		},
 	},
 	data() {
 		return {

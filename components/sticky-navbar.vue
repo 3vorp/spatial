@@ -3,7 +3,7 @@
 		<nav>
 			<div class="navbar-mobile-container">
 				<router-link to="/" title="Spatial" @click="hideNavbar">
-					<img src="/static/images/navbar.png" height="28" />
+					<img src="/static/images/navbar.png" height="28" alt="Spatial Wordmark" />
 				</router-link>
 
 				<button
@@ -18,7 +18,7 @@
 			<div class="navbar-container" :class="{ 'navbar-hidden': !isOpen }">
 				<div class="navbar-item-container">
 					<router-link to="/" title="Spatial" class="navbar-desktop-wordmark">
-						<img src="/static/images/navbar.png" height="28" />
+						<img src="/static/images/navbar.png" height="28" alt="Spatial Wordmark" />
 					</router-link>
 					<router-link
 						v-for="{ to, title } in links"
