@@ -2,5 +2,114 @@
 @use "./base.scss" as *;
 
 html {
-	font-family: sans-serif;
+	font-family: $font-body;
+	color: $dark;
+	overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-heading;
+	// for some reason the tracking is really close together otherwise
+	letter-spacing: 1px;
+}
+
+p {
+	// secondary text is just regular text at 0.7 opacity
+	opacity: 0.7;
+}
+
+a {
+	color: $primary;
+	text-decoration: none;
+	// underline hover is good for accessibility apparently
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.text-center {
+	text-align: center;
+}
+
+// todo: if I ever adapt this to mobile make this somewhat reactive
+.container {
+	padding: 64px;
+}
+
+.navbar-item {
+	color: $light;
+	text-decoration: none;
+	margin-bottom: 4px;
+	opacity: 0.7;
+	transition: $transition;
+	&:hover,
+	&:focus {
+		opacity: 1;
+		text-decoration: none;
+	}
+}
+
+.btn {
+	font-family: $font-body;
+	// icon fix
+	display: inline-flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	user-select: none;
+
+	// set no background or text color by default, use primary/light/dark to theme
+	background-color: transparent;
+	padding: 0 12px;
+	height: 32px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: $border-radius;
+	box-shadow: $drop-shadow;
+	transition: $transition;
+	cursor: pointer;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.btn-primary {
+	background: $primary;
+	color: $light;
+	// this is a bit lazy but it looks decent enough for a demo
+	&:hover {
+		filter: brightness(1.1);
+	}
+	&:active {
+		filter: brightness(1.5);
+	}
+}
+
+.btn-light {
+	background: $light;
+	color: $dark;
+	&:hover {
+		filter: brightness(0.85);
+	}
+	&:active {
+		filter: brightness(0.7);
+	}
+}
+
+.text-field {
+	// why does the user agent stylesheet untheme this by default? who knows!
+	font-family: $font-body;
+	font-size: 16px;
+	background: $light;
+	margin: 8px 0;
+	padding: 8px;
+	border-radius: $border-radius;
+	&:focus {
+		// replace stock outline with nicer one (this should maybe be an underline instead?)
+		outline: 3px solid $primary;
+	}
 }
