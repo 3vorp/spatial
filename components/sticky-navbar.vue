@@ -118,6 +118,9 @@ nav {
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
+	nav {
+		padding: 0 16px;
+	}
 	.navbar-desktop-wordmark {
 		display: none;
 	}

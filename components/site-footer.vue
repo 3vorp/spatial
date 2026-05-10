@@ -41,7 +41,7 @@ footer {
 		flex-flow: column nowrap;
 		justify-content: center;
 		gap: 4px;
-		padding: 16px 64px;
+		padding: 16px;
 		text-align: center;
 		height: auto;
 	}
