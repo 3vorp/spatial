@@ -12,7 +12,7 @@
 				</div>
 
 				<div class="btn-row">
-					<router-link to="/spatial/register" class="btn btn-primary btn-hero mt-5">
+					<router-link to="/spatial/login" class="btn btn-primary btn-hero mt-5">
 						Get Started
 						<mdicon name="chevron-right" />
 					</router-link>
