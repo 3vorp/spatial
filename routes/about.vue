@@ -93,6 +93,7 @@ export default {
 .section img {
 	max-width: 512px;
 	height: auto;
+	filter: drop-shadow($drop-shadow);
 }
 
 // swap colors
