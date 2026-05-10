@@ -10,7 +10,7 @@
 				</router-link>
 			</div>
 			<router-link to="/spatial/login" class="btn btn-primary">
-				<mdicon name="login" class="mr-2" />
+				<mdicon name="login" class="mr-2" size="18" />
 				Log In
 			</router-link>
 		</nav>
