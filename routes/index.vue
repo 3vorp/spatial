@@ -3,7 +3,7 @@
 		<div class="container hero-container">
 			<div class="hero-text">
 				<div>
-					<h1 class="title mb-0">Video Editing for the 21st Century</h1>
+					<h1 class="title my-0">Video Editing for the 21st Century</h1>
 					<p>Every video editor has looked the same for the past 30 years. What if they didn't?</p>
 				</div>
 
@@ -56,7 +56,7 @@ export default {
 	flex-flow: row nowrap;
 	justify-content: center;
 	align-items: center;
-	gap: 8px;
+	gap: 32px;
 }
 
 .hero-text {
@@ -75,7 +75,7 @@ export default {
 
 .hero-image {
 	filter: drop-shadow($drop-shadow);
-	max-width: 100%;
+	max-width: 30vw;
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
