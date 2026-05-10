@@ -20,7 +20,7 @@
 					<h3 class="amount">{{ card.price }}</h3>
 					<p class="currency">USD</p>
 				</span>
-				<router-link to="/spatial/login" class="btn btn-dark btn-lg my-3">
+				<router-link to="/login" class="btn btn-dark btn-lg my-3">
 					<mdicon name="cart" class="mr-2" />
 					Add to cart
 				</router-link>
@@ -96,6 +96,7 @@ export default {
 	flex-flow: column nowrap;
 }
 
+// todo: if have time add RECOMMENDED banner thingy like github has
 .card-recommended {
 	border: 8px solid $primary;
 }
@@ -114,6 +115,7 @@ export default {
 	font-size: 32px;
 }
 
+// since it's flex this lets you get super/subscript looking tags
 .currency {
 	align-self: end;
 	margin-bottom: 4px;

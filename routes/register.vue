@@ -1,5 +1,5 @@
 <template>
-	<signin is-login />
+	<signin :is-login="false" />
 </template>
 
 <script>

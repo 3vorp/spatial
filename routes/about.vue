@@ -59,7 +59,7 @@
 	</div>
 	<div class="container text-center">
 		<h2 class="mb-5">Ready to leave timelines behind forever?</h2>
-		<router-link to="/spatial/product" class="btn btn-primary btn-lg">
+		<router-link to="/product" class="btn btn-primary btn-lg">
 			Start Working Spatially
 			<mdicon name="chevron-right" />
 		</router-link>

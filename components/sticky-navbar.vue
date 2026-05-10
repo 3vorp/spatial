@@ -2,7 +2,7 @@
 	<header>
 		<nav>
 			<div class="navbar-mobile-container">
-				<router-link to="/spatial/" title="Spatial" @click="hideNavbar">
+				<router-link to="/" title="Spatial" @click="hideNavbar">
 					<img src="/static/images/navbar.png" height="28" />
 				</router-link>
 
@@ -17,7 +17,7 @@
 
 			<div class="navbar-container" :class="{ 'navbar-hidden': !isOpen }">
 				<div class="navbar-item-container">
-					<router-link to="/spatial/" title="Spatial" class="navbar-desktop-wordmark">
+					<router-link to="/" title="Spatial" class="navbar-desktop-wordmark">
 						<img src="/static/images/navbar.png" height="28" />
 					</router-link>
 					<router-link
@@ -31,7 +31,7 @@
 					</router-link>
 				</div>
 
-				<router-link to="/spatial/login" class="btn btn-primary" @click="hideNavbar">
+				<router-link to="/login" class="btn btn-primary" @click="hideNavbar">
 					<mdicon name="login" class="mr-2" size="18" />
 					Log In
 				</router-link>
@@ -47,11 +47,11 @@ export default {
 			isOpen: false,
 			links: [
 				{
-					to: "/spatial/product",
+					to: "/product",
 					title: "Product",
 				},
 				{
-					to: "/spatial/about",
+					to: "/about",
 					title: "About",
 				},
 			],

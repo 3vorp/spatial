@@ -8,11 +8,11 @@
 				</div>
 
 				<div class="btn-row mt-5">
-					<router-link to="/spatial/product" class="btn btn-primary btn-lg">
+					<router-link to="/product" class="btn btn-primary btn-lg">
 						Get Started
 						<mdicon name="chevron-right" />
 					</router-link>
-					<router-link to="/spatial/about" class="btn btn-light btn-lg">
+					<router-link to="/about" class="btn btn-light btn-lg">
 						Learn More
 						<mdicon name="chevron-right" />
 					</router-link>
@@ -41,7 +41,6 @@ export default {
 <style scoped lang="scss">
 @use "../assets/css/variables.scss" as *;
 
-// setup grid with left being text and right as content
 .hero-background {
 	background-image: url("/static/images/hero.jpg");
 	background-position: center;
